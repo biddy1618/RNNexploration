@@ -13,7 +13,7 @@ Just like it has been said, sequence length will be 20. There is going to be one
     * Optimize
 * Observe the outputs
 
-[Link to notebook for more details.]()
+[Link to notebook for more details.](https://nbviewer.jupyter.org/github/biddy1618/RNNexploration/blob/master/RNN_exploration.ipynb)
 
 ## Character-level generator of text based on Kazakh novels
 
@@ -32,7 +32,7 @@ Character-level text generators are produced through 3 models of different RNN n
 * GRU
 * Plain RNN
 
-Code along with detailed explanationa and annotations can be found in the [link to the notebook]().
+Code along with detailed explanationa and annotations can be found in the [link to the notebook](https://nbviewer.jupyter.org/github/biddy1618/RNNexploration/blob/master/LSTM_char_generator.ipynb).
 
 ## Training and __output__
 
@@ -84,7 +84,7 @@ Models were trained for 300 epochs and sample outputs of models are as follows:
 тынышқан бір
 алысқа көп кәрі, аталыс тегіс кітіс бір жала атта
 
-![lstm][static/lstm.png]
+![lstm](https://raw.githubusercontent.com/biddy1618/RNNexploration/master/static/Training_hist_lstm.png)
 
 
 ### _GRU output_:
@@ -141,7 +141,7 @@ Models were trained for 300 epochs and sample outputs of models are as follows:
 >Абай содан бір аттылар тартып қалған екен. Байқасындай сияқты сөніле
 қ
 
-![gru][static/gru.png]
+![gru](https://raw.githubusercontent.com/biddy1618/RNNexploration/master/static/Training_hist_gru.png)
 
 ### _RNN output_:
 >Абайың,
@@ -180,7 +180,7 @@ Models were trained for 300 epochs and sample outputs of models are as follows:
 >
 >Құдарбек қастыр тартыстап жатқандық солып барған болда, осынан бiр алып, жалын қатты айықтарынан берiп жатқанының жал қосып, сөп 
 
-![rnn][static/rnn.png]
+![rnn](https://raw.githubusercontent.com/biddy1618/RNNexploration/master/static/Training_hist_rnn.png)
 
 ## Observations
 
